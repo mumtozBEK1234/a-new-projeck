@@ -1,0 +1,201 @@
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/static/fonts/poppins-v20-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* poppins-700 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/static/fonts/poppins-v20-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* poppins-900 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('/static/fonts/poppins-v20-latin-900.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+  body {
+    font-family: 'Poppins';
+  }
+
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .nav {
+    display: flex;
+    position: fixed;
+    gap: 122px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    margin-top: 30px;
+  }
+
+  .nav__logo {
+    width: 184.3px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+  .nav__secsion {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  ul a {
+    text-decoration: none;
+    color: #405741;
+    width: 48px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+  }
+
+  select {
+    width: 174px;
+    height: 40px;
+    padding: 8px;
+    gap: 8px;
+    border: 0px 0px 2px 0px;
+    opacity: 72%;
+    border: none;
+
+  }
+
+  select option {
+    width: 126px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #494961;
+
+
+
+  }
+
+  .nav__secsion img {
+    width: 26.67px;
+    height: 26.67px;
+    top: 2.67px;
+    left: 2.67px;
+    gap: 0px;
+    opacity: 0px;
+    color: #494961;
+
+  }
+
+  .nav__img {
+    margin-left: 28px;
+
+
+  }
+
+  .nav__secsion select {
+    border: none;
+  }
+  .card img{
+margin-top: 120px;
+background-image: url(../static/img/card.png);
+  }
+  .card__block{
+    margin-top: -490px;
+    margin-left: 150px;
+  }
+  .card__block h2{
+   
+
+font-size: 52px;
+font-weight: 600;
+line-height: 78px;
+text-align: left;
+color: #121216;
+
+  } 
+  .card__block p{
+ 
+height: 30px;
+gap: 0px;
+opacity: 0px;
+margin-top: -44px;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #494961;
+}
+.card__block button{
+  width: 220px;
+height: 48px;
+padding: 10px 16px 10px 16px;
+gap: 8px;
+border-radius: 8px ;
+background-color:  #405741;
+border: none;
+color:#FFFFFF;
+margin-top: 50px;
+transition: all 1s linear;
+}
+
+.card__block button:hover{
+  background-color: white;
+  box-shadow: 1px 1px;
+  color: #121216;
+}
+.flours{
+  margin-top: 300px;
+  display: flex;
+  gap: 24px;
+  margin-left: 140px;
+  transition: all 1s ;
+  
+}
+
+.flours:hover{
+  transform: rotate(360deg);
+
+}
+.block{
+  border: solid 1px red;
+  background-color: #038281;
+  width: 584px;
+  height:273px;
+  gap: 16px;
+  opacity: 0px;
+  margin-top: -200px;
+  
+  
+}
